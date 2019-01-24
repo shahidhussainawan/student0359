@@ -13,7 +13,7 @@ package listofstudents;
 public class Student {
   private String name;
   private int id;
-  
+  private String Dob;
   
   public Student()
   {
@@ -44,5 +44,19 @@ public class Student {
   {
       return id;
   }
+
+    /**
+     * @return the Dob
+     */
+    public String getDob() {
+        return Dob;
+    }
+
+    /**
+     * @param Dob the Dob to set
+     */
+    public void setDob(String Dob) {
+        this.Dob = Dob;
+    }
   
 }
